@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+header {
+  height: 80px;
+  background-color: #ffffff;
+}
+
+.hero {
+  height: calc(100vh - 80px);
+  background-image: url("./delivery-man-near-shipping-truck.webp");
+  background-size: cover;
+}
+.hero h1 {
+  background-color: #ffffff;
+  display: inline-block;
+  padding: 20px;
+}
+.hero h1 span {
+  background-color: #ffffff;
+  display: block;
+  margin-left: 80px;
+}
+
+.section {
+  padding: 4.85rem 1.25rem;
+}
+
+.section:nth-child(odd) {
+  background: #ffffff;
+}
+
+.section:nth-child(even) {
+  background: #fefefe;
+}
+
+.section__title {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 0 2rem 0;
+  color: #e30000;
+}
+
+.item-list {
+  clear: both;
+  overflow: hidden;
+}
+
+.item {
+  width: 33%;
+  float: left;
+  padding: 0.5rem;
+}
+
+.item__title {
+  font-size: 1rem;
+}
+
+.item__description {
+  font-size: 0.9rem;
+}
